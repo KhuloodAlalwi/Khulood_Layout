@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:elevation="4dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="109dp"
+                    android:layout_height="103dp"
+                    android:elevation="5dp"/>
+
+        <!--هنا نسوي لينير لياوت عشان نحط محتويات الكارد -->
+
+                    <LinearLayout
+                         android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                         android:orientation="vertical">
+
+
+
+
+                        <TextView
+                           android:id="@+id/textViewPlaceName"
+                           android:text="Place Name"
+                            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:text="Place Description"
+                            android:id="@+id/textViewPlaceDesc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="200dp"
+                            android:elevation="5dp"/>
+
+                    </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+</LinearLayout>
